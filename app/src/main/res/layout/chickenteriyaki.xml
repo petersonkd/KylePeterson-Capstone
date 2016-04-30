@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe: Chicken Teriyaki"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://natashaskitchen.com/2015/12/11/easy-teriyaki-chicken/"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tery"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n
+1/4 cup soy sauce
+\n\n1/3 cup freshly squeezed orange juice (from 1½ medium or 1 large oranges)
+\n\n3 Tbsp honey
+1 tsp finely grated fresh ginger
+\n\n1 tsp sesame oil
+\n\n1 1/2 to 2 lbs (about 6-7 medium) boneless skinless chicken thighs, trimmed of fat
+\n\n1 Tbsp oil (I use light olive oil)
+\n\n1 1/2 Tbsp unsalted butter
+\n\nGreen onion and sesame seeds for garnish, optional"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nIn a large bowl, whisk together all marinade ingredients: ¼ cup soy sauce, ⅓ cup orange juice, 3 Tbsp honey, 1 tsp ginger and 1 tsp sesame oil.
+\n\nCut chicken into 1-inch pieces and place into marinade. Stir and cover with plastic wrap and marinate on the counter 20 min.
+\n\nHeat a large non-stick pan over medium-high heat. Add 1 Tbsp olive oil. Remove chicken from marinade with a slotted spoon, reserving marinade in the bowl. Add chicken to the hot pan and sauté, stirring occasionally until golden and cooked through (5 min).
+\n\nRemove pan from heat and transfer chicken to a bowl.
+\n\nPour reserved marinade into the pan, add 1½ Tbsp butter and place back over medium/high heat. Bring to a boil stirring constantly until slightly thickened (1 min) then remove from heat. Add chicken back to the pan and stir to combine. Serve over hot buttery white rice garnished with fresh green onion and a sprinkle of sesame seeds if desired."                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

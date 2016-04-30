@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe: Cheeseburgers"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.foodnetwork.com/recipes/food-network-kitchens/perfect-beef-burgers-recipe.html"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/burg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="18dp"-->
+            <!--android:text="Ingredients:"-->
+            <!--/>-->
+            <!--<ListView-->
+            <!--android:id="@+id/list"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_width="match_parent">-->
+            <!--</ListView>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n
+\n\n1 1/2 pounds 80% lean ground beef chuck
+\n\nKosher salt and freshly ground pepper
+\n\n8 thin slices cheddar cheese (optional)
+\n\n4 soft sesame buns, split
+\n\nBibb lettuce and sliced tomato, for topping
+"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nSprinkle the ground beef evenly with 1/2 teaspoon salt in a large bowl. Gently form the meat into 4 balls, then lightly press into 4-inch-wide, 1-inch-thick patties. Make a 2-inch-wide indentation in the center of each with your thumb to prevent the burgers from bulging when grilled.
+\n\nPreheat a grill to high. Season the patties with salt and pepper. Grill, undisturbed, until marked on the bottom, 3 to 5 minutes. Turn and grill until the other side is marked and the patties feel firm, 3 to 5 more minutes; if desired, top each burger with 2 slices cheese during the last 2 minutes of cooking and cover with a disposable aluminum pan to melt.
+\n\nServe the patties on the buns; top with lettuce and tomato.
+"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe:Spinach Herb Pesto Linguine"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.myrecipes.com/recipe/linguine-spinach-herb-pesto"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/linguinespinacpasta"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n4 ounces fresh baby spinach\n\n1/4 cup slivered blanched almonds\n\n1/4 cup fresh basil leaves\n\n2 teaspoons chopped fresh oregano\n\n1 teaspoon chopped fresh thyme\n\n1/4 teaspoon black pepper\n\n1 large garlic clove, chopped\n\n2 tablespoons organic vegetable broth\n\n2 teaspoons fresh lemon juice\n\n1/4 teaspoon salt\n\n2 tablespoons extra-virgin olive oil\n\n1 ounce Parmigiano-Reggiano cheese, grated and divided (about 1/4 cup)\n\n8 ounces uncooked linguine"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nPlace spinach in a microwave-safe bowl; cover bowl with plastic wrap. Microwave at HIGH 2 minutes or until spinach wilts. Remove plastic wrap; cool slightly.\n\nPlace spinach, almonds, and next 5 ingredients (through garlic) in a food processor. Process until chopped. Add broth, juice, and salt; pulse 5 times. With processor on, slowly pour oil through food chute; process until well blended. Scrape into a bowl; stir in half of cheese. Cover with plastic wrap.\n\nCook pasta according to package directions, omitting salt and fat. Drain. Toss pasta with 1/2 cup pesto. Arrange about 1 1/2 cups pasta mixture in each of 4 bowls; top each serving with 2 tablespoons remaining pesto and 1 1/2 teaspoons remaining cheese."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

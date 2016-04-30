@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe:Havarti Souffle"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.countryliving.com/food-drinks/recipes/a4789/havarti-souffle-scallions-dill-recipe-clv0214/"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: N/A/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mac"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n1 red bell pepper\n\n5 tbsp. butter\n\n3 tbsp. breadcrumbs\n\n1½ c. milk\n\n1 clove garlic\n\n1 bay leaf\n\n¼ c. flour\n\n½ tsp. salt\n\n½ tsp. Freshly ground pepper\n\n5 large egg yolks\n\n7 large egg whites\n\n2 c. grated Havarti cheese\n\n2 large scallions\n\n2 tbsp. chopped fresh dill"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nRoast pepper directly under broiler or over an open flame, turning it frequently, until blistered and blackened on all sides, 6 to 8 minutes. Transfer pepper to a large bowl, cover tightly with plastic wrap, and let sit for 20 minutes to steam. When cool enough to handle, remove plastic wrap and use a paring knife to peel off skin. Slit pepper down one side; remove stem and seeds. Finely chop pepper and set aside.\n\nPreheat oven to 375 degrees F, with a rack in the lower third of the oven. Coat an 8-cup (2-quart) soufflé dish or casserole, at least 4 inches deep, with 1 tablespoon butter. Dust with breadcrumbs; shake out any excess. Set aside. In a medium pot over medium-high heat, bring milk, garlic, and bay leaf to a simmer. Reduce heat to low. In another medium pot over medium heat, melt remaining butter. Whisk in flour and cook for 3 minutes. Use a slotted spoon to remove garlic and bay leaf from milk mixture; then, while continuously whisking, add the milk to the butter-flour mixture in a slow, steady stream. Cook until mixture thickens and begins to boil, about 5 minutes. Remove from heat, and add salt and pepper; stir.\n\nIn a medium bowl, temper egg yolks by whisking in a cup of the milk-flour mixture in a slow, steady stream. Continuing to whisk, transfer tempered yolks in a slow, steady stream to remaining milk-flour mixture. Stir in cheese until melted, and transfer mixture to a large bowl. Stir in scallions, dill, and reserved red pepper.\n\nIn a medium bowl, using an electric mixer on medium-high speed, beat egg whites to stiff but not dry peaks. Using a spatula, stir one-third of the egg whites into the cheese mixture, then fold in remaining whites. Pour into prepared dish. Bake until soufflé is golden brown and has risen about 3 inches, and a toothpick inserted into the center comes out clean, 40 to 45 minutes. (Do not open oven door until soufflé has baked at least 30 minutes.) Garnish with dill, if desired. Serve immediately."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe:Sweet Potato Fritters"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.foodnetwork.com/recipes/sweet-potato-fritters-recipe.html"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sweetpotfrit"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\nCanola oil\n\n1 large sweet potato (about 1 cup)\n\n4 tablespoons melted salted butter\n\n1 egg\n\n1/4 cup bread crumbs\n\n2 tablespoons all-purpose flour\n\nSalt and freshly ground black pepper\n\n1/4 cup chopped chives (reserve 1 tablespoon for sour cream topping)\n\n1/2 cup fresh or thawed frozen corn\n\n1 cup sour cream"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nIn a shallow pan, heat oil to 350 degrees F.\n\nScore sweet potato with a fork and microwave on high for 6 minutes or until cooked through. Let cool. Cut sweet potato in half, scoop out the flesh, and place it into a mixing bowl with the butter. Mash well. Add egg, bread crumbs, flour, salt, and pepper and mix well. Add the chives and corn and mix gently. Using 2 spoons to shape, scoop mounds into hot oil, cooking on both sides, in batches, until golden brown. With a slotted spoon or spider, remove fritters from oil and place on paper towel to dry. Mix sour cream, reserved chives, salt and pepper, to taste, and place a small dollop on each fritter when ready to serve."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

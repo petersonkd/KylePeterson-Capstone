@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QookBook</string>
+    <string name="recipeact">Recipe</string>
+    <string name="title_activity_recipe_act">Recipe</string>
+</resources>

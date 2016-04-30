@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe: Tater Tots"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://damndelicious.net/2015/04/10/homemade-tater-tots/"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tater"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="18dp"-->
+            <!--android:text="Ingredients:"-->
+            <!--/>-->
+            <!--<ListView-->
+            <!--android:id="@+id/list"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_width="match_parent">-->
+            <!--</ListView>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n
+2 pounds russet potatoes, peeled\n\n
+1 tablespoon all-purpose flour\n\n
+1 teaspoon garlic powder\n\n
+1/2 teaspoon onion powder\n\n
+1/4 teaspoon dried oregan\n\n
+1/4 teaspoon dried dill\n\n
+Kosher salt and freshly ground black pepper, to taste\n\n
+1 cup vegetable oil\n\n
+2 tablespoons chopped fresh parsley leaves"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nPlace potatoes in a large saucepan and cover with cold water by 1 inch. Bring to a boil and cook until parboiled, about 6-7 minutes; drain well and let cool.
+\n\nUsing a box grater, finely shred potatoes. Using a clean dish towel or cheese cloth, drain potatoes completely, removing as much water as possible.
+\n\nTransfer potatoes to a large bowl. Stir in flour, garlic powder, onion powder, oregano and dill; season with salt and pepper, to taste. The mixture should be workable but dry. Form potatoes into tots.
+\n\nHeat vegetable oil in a large stockpot or Dutch oven over medium heat.
+\n\nAdd tots to the skillet, 5 or 6 at a time, and cook until evenly golden and crispy, about 3-4 minutes. Transfer to a paper towel-lined plate.
+\n\nServe immediately, garnished with parsley, if desired"                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

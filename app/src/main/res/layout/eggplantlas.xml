@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe:Eggplant Lasagna"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.foodnetwork.com/recipes/danny-boome/eggplant-lasagna-recipe.html"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 4.5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mac"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n2 large eggplants, sliced lengthwise 3/4-inch thick (8 slices)\n\n5 tablespoons olive oil, divided plus more for baking dish\n\nCoarse salt and freshly ground black pepper\n\n1 cup thinly sliced cremini mushrooms\n\n2 garlic cloves, minced\n\n1 tablespoon freshly chopped thyme leaves\n\n1 (15-ounce) container whole milk ricotta cheese\n\n3 large eggs\n\n1 cup grated Parmesan, divided\n\n2 tablespoons freshly chopped oregano leaves\n\n2 cups Nona's Marinara Sauce, recipe follows\n\nNona's Marinara Sauce:\n\n5 cloves garlic\n\nCoarse salt and freshly ground black pepper\n\n1/4 cup plus 2 tablespoons extra-virgin olive oil, divided\n\n1 large onion, diced\n\n3 carrots, peeled and diced\n\n2 tablespoons tomato paste\n\n1 cup fresh basil leaves\n\n2 tablespoons freshly picked oregano leaves\n\n1 (28-ounce) can crushed tomatoes"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nPreheat oven to 400 degrees F.\n\nArrange sliced eggplant in a single layer on 2 sheet pans. Brush on both sides using 3 tablespoons of oil and season with salt and pepper. Roast the eggplant until it is soft and golden. Turn slices halfway through, about 25 minutes.\n\nMeanwhile, in a medium skillet add the remaining 2 tablespoons of oil and the sliced mushrooms. Saute until soft for about 7 minutes. Add the minced garlic and chopped thyme. Cook for another 2 minutes. Once the mushrooms are cooked remove and set aside to cool.\n\nIn a large bowl add the ricotta, eggs, 1/2 cup Parmesan, oregano, mushrooms, 2 teaspoons of salt and 1/4 teaspoon pepper. Mix well. Brush an 8-inch baking dish with oil.\n\nSpread half of the marinara sauce on the bottom of the prepared baking dish. Lay 4 slices on top followed by the ricotta mixture. Lay another 4 slices of eggplant and finish with marinara sauce. Top with the remaining 1/2 cup Parmesan. Bake until golden brown, at 350 degrees, for 30 minutes.\n\nNona's Marinara Sauce:\n\nPreheat the oven to 400 degrees F.\n\nPeel 5 cloves garlic and place them in a square of foil. Sprinkle the cloves with salt and pepper and drizzle with 2 tablespoons olive oil. Wrap up the foil and place it directly on the oven rack. (Be sure that the foil packet is secure so no oil will leak out.) Roast the garlic until it's brown and tender, about 25 minutes. Allow to cool enough to touch and squeeze the garlic from the skins. Set aside.\n\nSaute onions and carrots with the oil in a medium saucepan. Add tomato paste and stir well. This will cook off the tomato paste and give a nice orangy color. Cook for about 10 minutes. When vegetables are softened add the roasted garlic, salt, pepper, basil, oregano and stir together until incorporated. Pour in the tomatoes. Fill the empty can with water and add it to the pan. Bring to a boil then lower the heat to a simmer. Simmer for 1 hour, uncovered. Stir occasionally. Once sauce is ready carefully pour it into the food processor and puree until smooth."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

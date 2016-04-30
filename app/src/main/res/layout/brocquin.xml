@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe:Broccoli Quinoa Casserole"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://cookieandkate.com/2016/better-broccoli-casserole-recipe/"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 4.8/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/broccoliquinoacasserole"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n2 cups vegetable broth or water\n\n1 cup quinoa (any color), rinsed under running water in a mesh sieve for a minute and drained\n\n16 ounces broccoli florets, either pre-packaged or sliced from 2 large bunches of broccoli\n\n2 tablespoons olive oil\n\n¾ teaspoon salt\n\n10 twists of freshly ground black pepper\n\n¼ teaspoon red pepper flakes, omit if sensitive to spice\n\n8 ounces (about 2½ cups) freshly grated cheddar cheese, divided\n\n1 cup low-fat milk (cow's milk tastes best but unsweetened plain almond milk works, too)\n\n½ tablespoon butter or 1½ teaspoons olive oil\n\n1 clove garlic, pressed or minced\n\n1 slice whole wheat bread (substitute gluten-free bread for a gluten-free casserole)"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nPreheat oven to 400 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy cleanup.\n\nTo cook the quinoa: Bring the vegetable broth or water to boil in a heavy-bottomed, medium-sized pot. Add the quinoa, reduce heat to low and simmer, uncovered, for 17 to 20 minutes, or until all of the liquid is absorbed. Cover and set aside to steam for 10 minutes.\n\nTo roast the broccoli: Slice any large broccoli florets in half to make bite-sized pieces. Transfer the broccoli to your prepared baking sheet and toss with 2 tablespoons olive oil, until lightly coated on all sides. Sprinkle with salt and arrange in a single layer. Bake for about 20 minutes, until the broccoli is tender and starting to caramelize on the edges.\n\nTo make the breadcrumbs: Tear your piece of bread into bite-sized pieces and toss them into a food processor or blender. Process until the bread has broken into small crumbs. In a small pan over medium heat, melt the butter. Add the garlic and cook just until fragrant, stirring often. Add the bread crumbs and cook for 2 to 3 minutes, until slightly browned and crisp. Set aside to cool. (If you cooked your bread crumbs in a cast iron skillet, transfer them to a bowl to prevent them from burning.)\n\nReduce the oven heat to 350 degrees. Add the salt, pepper and red pepper flakes to the pot of quinoa, and stir to combine. Set aside ¾ cup of the cheese for later, then add the cheese to the pot. Pour in the milk and stir until the cheese and milk are evenly incorporated in the quinoa.\n\nPour the cheesy quinoa into a 9-inch square baking dish and top with the roasted broccoli. Stir until the broccoli is evenly mixed in with the quinoa. Sprinkle the surface of the casserole with the reserved ¾ cup cheese, then sprinkle the breadcrumbs on top.\n\nBake, uncovered, for 25 minutes, until the top is golden. Allow to cool for 10 minutes before serving."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

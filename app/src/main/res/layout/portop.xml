@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe:Portobello Parmesan"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.foodnetwork.com/recipes/portobello-parmesan-recipe.html"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/portoparm"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n1 tablespoon extra-virgin olive oil, plus more for the dish\n\n3 portobello mushroom caps\n\n1/4 teaspoon red pepper flakes\n\n3 cloves garlic, smashed\n\n1 28 -ounce can diced tomatoes\n\n4 fresh basil leaves\n\nKosher salt and freshly ground pepper\n\n2 cups panko (Japanese breadcrumbs)\n\n1 cup grated parmesan cheese\n\n2 tablespoons chopped fresh parsley\n\n4 large eggs\n\n1 cup all-purpose flour\n\nPeanut oil, for frying\n\n4 ounces buffalo mozzarella cheese, sliced"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nPreheat the oven to 350 degrees F. Lightly oil a 9-by-13-inch baking dish. Scrape out the gills of the portobellos with a spoon, then halve the mushrooms horizontally to make 6 thin rounds.\n\nHeat the olive oil in a saucepan over medium-high heat. Add the red pepper flakes and garlic; cook 1 minute. Reduce the heat to low, add the tomatoes and basil and cook until the garlic is soft, about 15 more minutes. Transfer to a food processor and puree until smooth. Season with salt and pepper.\n\nCombine the panko, 1/2 cup parmesan, 1 tablespoon parsley, 1 teaspoon salt and 1/2 teaspoon pepper in a shallow bowl. Whisk the eggs and 2 tablespoons cold water in another bowl. Put the flour in a third bowl.\n\nDredge the mushrooms in flour, shaking off the excess. Dip in the eggs and then in the panko mixture, pressing to coat both sides. Heat 1/2 inch peanut oil in a large skillet over medium-high heat. Working in batches, fry the mushrooms until golden, about 2 minutes per side. Drain on paper towels.\n\nSpread a layer of the tomato sauce in the prepared baking dish. Add the fried mushrooms, then cover with the remaining tomato sauce. Top with the mozzarella and the remaining 1/2 cup parmesan. Bake until browned, 20 to 25 minutes. Sprinkle with the remaining 1 tablespoon parsley."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

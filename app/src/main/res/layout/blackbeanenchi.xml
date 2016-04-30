@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe: Black Bean Enchilada"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.myrecipes.com/recipe/black-bean-cheese-enchiladas"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 4/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vegetarianenc"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="18dp"-->
+            <!--android:text="Ingredients:"-->
+            <!--/>-->
+            <!--<ListView-->
+            <!--android:id="@+id/list"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_width="match_parent">-->
+            <!--</ListView>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n2 dried ancho chiles, stemmed and seeded\n\n
+2 cups water\n\n
+2 teaspoons olive oil\n\n
+1 cup chopped yellow onion\n\n
+5 garlic cloves, sliced\n\n
+1/4 teaspoon kosher salt\n\n
+2 cups organic vegetable broth\n\n
+2 tablespoons chopped fresh oregano\n\n
+2 tablespoons no-salt-added tomato paste\n\n
+1/2 teaspoon ground cumin\n\n
+1 tablespoon fresh lime juice\n\n
+1/8 teaspoon ground red pepper\n\n
+1 (15-ounce) can black beans, rinsed and drained\n\n
+2 cups (8 ounces) preshredded reduced-fat 4-cheese Mexican-blend cheese, divided\n\n
+3 thinly sliced green onions, divided\n\n
+Cooking spray\n\n
+12 (6-inch) corn tortillas\n\n
+6 tablespoons light sour cream"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nPreheat oven to 400°.\n\n
+                Combine chiles and 2 cups water in a saucepan; bring to a boil, reduce heat, and simmer 5 minutes. Remove from heat; let stand 5 minutes. Drain chiles in a colander over a bowl, reserving 1 cup cooking liquid. \n\nHeat oil in a medium saucepan over high heat. Add onion; saute 1 minute. Reduce heat to medium; add garlic and salt. Cook 5 minutes or until golden, stirring occasionally. Add broth and next 3 ingredients (through cumin); cook 8 minutes or until thickened, stirring occasionally.
+                \n\n Pour onion mixture into a blender; add chiles and reserved liquid. Remove center piece of blender lid (to allow steam to escape); secure lid on blender. Place a clean towel over opening in lid. Blend until smooth; stir in lime juice and red pepper.\n\nCombine the beans, 1 cup cheese, and half the green onions in a bowl. Spread 1/2 cup sauce in the bottom of a 13 x 9-inch glass or ceramic baking dish coated with cooking spray. Warm tortillas according to package directions. Spoon 3 tablespoons bean mixture down center of each tortilla; roll up.\n\n
+                Place, seam-side down, in prepared dish. Pour remaining sauce over filled tortillas. Top with the remaining cheese. Bake at 400° for 15 minutes or until lightly browned. Sprinkle with remaining green onions; serve with sour cream
+                "
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

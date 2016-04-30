@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe: Fajitas"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.foodnetwork.com/recipes/tyler-florence/fajitas-recipe2.html"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/faj"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="18dp"-->
+            <!--android:text="Ingredients:"-->
+            <!--/>-->
+            <!--<ListView-->
+            <!--android:id="@+id/list"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_width="match_parent">-->
+            <!--</ListView>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n
+1 orange, juiced\n\n
+2 limes, juiced\n\n
+4 tablespoons olive oil\n\n
+2 garlic cloves, roughly chopped\n\n
+3 chipolte chiles, in adobo sauce\n\n
+3 tablespoon roughly chopped fresh cilantro leaves\n\n
+1 teaspoon ground cumin\n\n
+1 teaspoon salt\n\n
+2 1/4 pounds skirt or flank steak, trimmed of fat cut into thirds or 8-inch pieces\n\n
+Salt and pepper\n\n
+2 red bell peppers, thinly sliced\n\n
+1 large onion, thinly sliced\n\n
+Lime juice, olive oil, optional\n\n
+12 flour tortillas, warm\n\n
+Guacamole\n\n
+Good quality store bought salsa\n\n"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nIn a small 2 cup measuring cup, or something similar size and shape, combine all the marinade ingredients.
+                 \n\nUsing an immersion blender, puree the marinade until smooth. Transfer to a re-sealable plastic bag and add the steak, seal and shake to coat. Refrigerate the beef for 2 to 4 hours to tenderize and flavor the beef.
+\n\nPreheat a ridged grill pan on high heat.
+\n\nDrain the marinade from the beef. Lightly oil the grill or grill pan. Season liberally with salt and freshly ground black pepper. Grill the steak over medium-high heat and cook for 4 minutes on each side and then transfer to a cutting board and let rest. Depending on the size of your grill pan you may need to cook in batches.
+\n\nOnce the beef is off the grill pan and resting, add the bell peppers and onions tossed with lime juice and olive oil, if using. Grill the mixture for 7 to 8 minutes until the vegetables are just barely limp.
+\n\nWhile the peppers and onions are cooking, heat up the tortillas. Turn any free burners on a medium low flame. Place a tortilla on each flame and let it char about 30 seconds to 1 minute, flip the tortilla and repeat on the second side. Once heated and charred remove the tortilla to a clean tea towel and wrap to keep warm. Repeat until you have warmed all of your tortillas.
+\n\nYou can also heat your tortillas in a microwave, lightly dampen a tea towel with some water, wrap the tortillas in the damp towel and heat in the microwave for about 1 minute. Check to see if they are warm, if not repeat the heating at 1 minute intervals until they are warm and pliable.
+\n\nThinly slice the steak against the grain on a diagonal.
+\n\nSpread some guacamole on a tortilla, top with a few slices of steak, peppers and onions, and salsa. Roll up the tortilla to enclose the filling.
+\n\nMay also be served with sour cream and shredded
+"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

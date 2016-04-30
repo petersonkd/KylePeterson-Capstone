@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe: Jambalaya"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://allrecipes.com/recipe/31848/jambalaya/"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/jamba"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="18dp"-->
+            <!--android:text="Ingredients:"-->
+            <!--/>-->
+            <!--<ListView-->
+            <!--android:id="@+id/list"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_width="match_parent">-->
+            <!--</ListView>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n2 tablespoons peanut oil, divided
+                 \n\n1 tablespoon Cajun seasoning
+                 \n\n10 ounces andouille sausage, sliced into rounds\n\n
+                 1 pound boneless skinless chicken breasts, cut into 1 inch pieces \n\n
+                 1 onion, diced\n\n
+                1 small green bell pepper, diced\n\n
+                2 stalks celery\n\n
+                diced 3 cloves garlic, minced \n\n
+                1 (16 ounce) can crushed Italian tomatoes\n\n
+                1/2 teaspoon red pepper flakes\n\n
+                1/2 teaspoon ground black pepper\n\n
+                1 teaspoon salt\n\n
+                1/2 teaspoon hot pepper sauce\n\n
+                2 teaspoons Worcestershire sauce\n\n1 teaspoon file powder\n\n
+                1 1/4 cups uncooked white rice
+                \n\n2 1/2 cups chicken broth
+
+"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nHeat 1 tablespoon of peanut oil in a large heavy Dutch oven over medium heat. Season the sausage and chicken pieces with Cajun seasoning. Saute sausage until browned. Remove with slotted spoon, and set aside. Add 1 tablespoon peanut oil, and saute chicken pieces until lightly browned on all sides. Remove with a slotted spoon, and set aside.\n\nPreheat a grill to high. Season the patties with salt and pepper. Grill, undisturbed, until marked on the bottom, 3 to 5 minutes. Turn and grill until the other side is marked and the patties feel firm, 3 to 5 more minutes; if desired, top each burger with 2 slices cheese during the last 2 minutes of cooking and cover with a disposable aluminum pan to melt.
+\n\nIn the same pot, saute onion, bell pepper, celery and garlic until tender. Stir in crushed tomatoes, and season with red pepper, black pepper, salt, hot pepper sauce, Worcestershire sauce and file powder. Stir in chicken and sausage. Cook for 10 minutes, stirring occasionally.
+\n\nStir in the rice and chicken broth. Bring to a boil, reduce heat, and simmer for 20 to 25 minutes, or until liquid is absorbed.
+"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

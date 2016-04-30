@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe:Potato Salad"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.bettycrocker.com/recipes/creamy-potato-salad/f632cea1-2421-4ebd-890a-4d91598c472d"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 4.5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/potatosalad"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n1 ½ pounds round red or white potatoes (about 6 medium), peeled\n\n1 ½ cups mayonnaise or salad dressing\n\n1 tablespoon white or cider vinegar\n\n1 tablespoon yellow mustard\n\n1 teaspoon salt\n\n¼ teaspoon pepper\n\n2 medium stalks celery, chopped (1 cup)\n\n1 medium onion, chopped ( 1/2 cup)\n\n4 hard-cooked eggs, chopped\n\nPaprika, if desired"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nPlace potatoes in 3-quart saucepan; add enough water to cover potatoes. Cover and heat to boiling; reduce heat to low. Cook covered 25 to 30 minutes or until potatoes are tender; drain. Let stand until cool enough to handle. Cut potatoes into cubes.\n\nMix mayonnaise, vinegar, mustard, salt and pepper in large glass or plastic bowl.\n\nAdd potatoes, celery and onion; toss. Stir in eggs. Sprinkle with paprika. Cover and refrigerate at least 4 hours to blend flavors and chill. Store covered in refrigerator."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

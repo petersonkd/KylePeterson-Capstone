@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kyle.qookbook.MainActivity"
+    android:background="@drawable/rou"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Recipe:Tofu Tacos"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="http://www.foodnetwork.com/recipes/food-network-kitchens/tofu-tacos-recipe.html"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Rating: 5/5"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tofutac"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:\n12 ounces firm tofu, drained and cut into 8 slices\n\n4 cups shredded coleslaw mix\n\n1 small bunch radishes, thinly sliced\n\n1/2 cup chopped fresh cilantro\n\n1 bunch scallions, sliced\n\n1 1/2 tablespoons extra-virgin olive oil\n\n2 limes (1 zested and juiced, 1 cut into wedges)\n\n1/4 cup nonfat plain Greek yogurt\n\nKosher salt and freshly ground pepper\n\n1 tablespoon taco seasoning\n\n8 8 -inch whole-wheat tortillas\n\n1/4 cup shredded part-skim mozzarella or pepper jack cheese\n\n1/4 cup jarred salsa verde"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:text="Directions:\nLay the tofu slices flat on a stack of paper towels; top with more paper towels, then put a heavy skillet on top to press out the excess water, about 10 minutes. Meanwhile, toss the coleslaw, radishes, cilantro, scallions, 1 tablespoon olive oil, the lime zest and half of the lime juice in a large bowl. Mix the yogurt with the remaining lime juice in a small bowl and season with salt and pepper.\n\nBrush the tofu on all sides with the remaining 1/2 tablespoon olive oil and sprinkle with the taco seasoning. Heat a nonstick skillet over medium-high heat, then add the tofu and cook until it begins to crisp, about 5 minutes; flip and cook 2 more minutes. Cut into strips.\n\nToast the tortillas in a dry skillet, 1 minute per side, or wrap in a damp towel and microwave 1 minute. Fill with the tofu, cheese and slaw, then drizzle with the yogurt sauce and salsa. Serve with the lime wedges."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
